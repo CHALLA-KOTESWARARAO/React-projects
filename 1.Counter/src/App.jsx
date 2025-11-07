@@ -14,7 +14,7 @@ function App(){
   return(
     <div class="main">
       <center>
-      <h1>Count:{count}</h1>
+      <h1 class="co">Counter:<span>{count}</span></h1>
     <button onClick={inc}>inc +</button>
     <button onClick={dec}>Dec -</button>
     <button onClick={reset}>Reset</button>
